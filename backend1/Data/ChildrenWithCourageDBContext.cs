@@ -5,10 +5,8 @@ namespace backend1.Data
 {
     public class ChildrenWithCourageDBContext:DbContext
     {
-        public DbSet<ChildEntity> Disciplines => Set<ChildEntity>();
-        public DbSet<ChildEntity> Athletes => Set<ChildEntity>();
-        //public DbSet<Customer> Customers => Set<Customer>();
-        // public DbSet<Order> Orders => Set<Order>();
+        public DbSet<ChildEntity> Children => Set<ChildEntity>();
+        
         public ChildrenWithCourageDBContext(DbContextOptions<ChildrenWithCourageDBContext> options) : base(options)
         {
 
