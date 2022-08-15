@@ -11,7 +11,6 @@ builder.Services.AddTransient<IChildService, ChildService>();
 builder.Services.AddTransient<IChildrenWithCourageAppRepository, ChildrenWithCourageAppRepository>();
 
 builder.Services.AddAutoMapper(typeof(Program));
-
 //entity framework config
 var connectionString = builder.Configuration.GetConnectionString("ChildrenWithCourageConnectionString");
 builder.Services.AddDbContext<ChildrenWithCourageDBContext>(x => x.UseSqlServer(connectionString));
@@ -32,7 +31,11 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+//app.UseAuthorization();
+app.MapDefaultControllerRoute();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapRazorPages();
 

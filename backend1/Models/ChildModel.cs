@@ -2,8 +2,8 @@
 {
     public class ChildModel
     {
-        public string? ChildName;
-        public DateTime? BirthDate;
-        public int? Id;
+        public string? ChildName { get; set; }
+        public DateTime? BirthDate { get; set; }
+        public int? Id { get; set; }
     }
 }

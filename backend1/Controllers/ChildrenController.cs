@@ -31,7 +31,7 @@ namespace backend1.Controllers
         }
         
         [HttpPost]
-        public async Task<ActionResult<ChildModel>> CreateDisciplineAsync([FromBody] ChildModel Child)
+        public async Task<ActionResult<ChildModel>> CreateChildAsync([FromBody] ChildModel Child)
         {
             try
             {
