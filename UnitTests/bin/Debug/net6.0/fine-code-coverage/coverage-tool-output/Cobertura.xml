@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.0196078431372549" branch-rate="0" lines-covered="3" lines-valid="153" branches-covered="0" branches-valid="34" complexity="64" version="0" timestamp="1660521294">
+<coverage line-rate="0.26455026455026454" branch-rate="0" lines-covered="50" lines-valid="189" branches-covered="0" branches-valid="34" complexity="68" version="0" timestamp="1660666526">
   <sources>
     <source>C:\</source>
   </sources>
   <packages>
-    <package name="backend1" line-rate="0" branch-rate="0" complexity="62">
+    <package name="backend1" line-rate="0.0738255033557047" branch-rate="0" complexity="62">
       <classes>
-        <class name="backend1.AutomapperProfile" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\AutomapperProfile.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="backend1.AutomapperProfile" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\AutomapperProfile.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="0" branch="false" />
-                <line number="10" hits="0" branch="false" />
-                <line number="11" hits="0" branch="false" />
-                <line number="12" hits="0" branch="false" />
-                <line number="13" hits="0" branch="false" />
+                <line number="9" hits="5" branch="false" />
+                <line number="10" hits="5" branch="false" />
+                <line number="11" hits="5" branch="false" />
+                <line number="12" hits="5" branch="false" />
+                <line number="13" hits="5" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="0" branch="false" />
-            <line number="10" hits="0" branch="false" />
-            <line number="11" hits="0" branch="false" />
-            <line number="12" hits="0" branch="false" />
-            <line number="13" hits="0" branch="false" />
+            <line number="9" hits="5" branch="false" />
+            <line number="10" hits="5" branch="false" />
+            <line number="11" hits="5" branch="false" />
+            <line number="12" hits="5" branch="false" />
+            <line number="13" hits="5" branch="false" />
           </lines>
         </class>
         <class name="backend1.Controllers.ChildrenController" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Controllers\ChildrenController.cs" line-rate="0" branch-rate="0" complexity="4">
@@ -145,28 +145,28 @@
             <line number="39" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="backend1.Data.Entity.ChildEntity" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Data\Entity\ChildEntity.cs" line-rate="0" branch-rate="1" complexity="3">
+        <class name="backend1.Data.Entity.ChildEntity" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Data\Entity\ChildEntity.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="0" branch="false" />
+                <line number="9" hits="9" branch="false" />
               </lines>
             </method>
-            <method name="get_ChildName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_ChildName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="false" />
+                <line number="10" hits="9" branch="false" />
               </lines>
             </method>
-            <method name="get_BirthDate" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_BirthDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="false" />
+                <line number="11" hits="9" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="0" branch="false" />
-            <line number="10" hits="0" branch="false" />
-            <line number="11" hits="0" branch="false" />
+            <line number="9" hits="9" branch="false" />
+            <line number="10" hits="9" branch="false" />
+            <line number="11" hits="9" branch="false" />
           </lines>
         </class>
         <class name="backend1.Data.Repository.ChildrenWithCourageAppRepository" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Data\Repository\ChildrenWithCourageAppRepository.cs" line-rate="0" branch-rate="0" complexity="5">
@@ -235,28 +235,28 @@
             <line number="39" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="backend1.Models.ChildModel" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Models\ChildModel.cs" line-rate="0" branch-rate="1" complexity="3">
+        <class name="backend1.Models.ChildModel" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Models\ChildModel.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
-            <method name="get_ChildName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_ChildName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="0" branch="false" />
+                <line number="5" hits="7" branch="false" />
               </lines>
             </method>
-            <method name="get_BirthDate" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_BirthDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="0" branch="false" />
+                <line number="6" hits="7" branch="false" />
               </lines>
             </method>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="0" branch="false" />
+                <line number="8" hits="7" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="0" branch="false" />
-            <line number="6" hits="0" branch="false" />
-            <line number="7" hits="0" branch="false" />
+            <line number="5" hits="7" branch="false" />
+            <line number="6" hits="7" branch="false" />
+            <line number="8" hits="7" branch="false" />
           </lines>
         </class>
         <class name="backend1.Services.ChildService" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Services\ChildService.cs" line-rate="0" branch-rate="0" complexity="4">
@@ -547,7 +547,7 @@
         </class>
       </classes>
     </package>
-    <package name="UnitTests" line-rate="0.75" branch-rate="1" complexity="2">
+    <package name="UnitTests" line-rate="0.975" branch-rate="1" complexity="6">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\inav2\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -561,20 +561,108 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="UnitTests.UnitTest" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\UnitTest.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="UnitTests.Config.AutomapperUT" filename="C:\TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\Config\AutomapperUT.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
-            <method name="PassingTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="AutomapperProfile_ChildModel_ReturnsChildEntity" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="1" branch="false" />
-                <line number="8" hits="1" branch="false" />
-                <line number="9" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="2" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AutomapperProfile_ChildEntity_ReturnsChildModel" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="2" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AutomapperProfile_ChildEntity_ReturnsChildModelWithSameName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="62" hits="2" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AutomapperProfile_ChildEntity_ReturnsChildModelWithSameBirthDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="75" hits="2" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AutomapperProfile_ChildEntity_ReturnsChildModelWithSameId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="87" hits="2" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="7" hits="1" branch="false" />
-            <line number="8" hits="1" branch="false" />
-            <line number="9" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="2" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="2" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="62" hits="2" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="75" hits="2" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="87" hits="2" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
           </lines>
         </class>
       </classes>
