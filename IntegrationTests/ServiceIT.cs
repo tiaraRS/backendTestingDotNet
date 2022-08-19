@@ -7,7 +7,7 @@ using backend1.Services;
 
 namespace IntegrationTests
 {
-    public class ServiceIT:
+    public class ServiceIT
     {
        /* [Fact]
         public async void GetChildren_TwoChildrenAdded_ReturnsListWithTwoChildren_INTEGRATION()
