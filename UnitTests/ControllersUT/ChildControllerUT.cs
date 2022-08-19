@@ -1,4 +1,6 @@
-﻿using backend1.Controllers;
+﻿using AutoMapper;
+using backend1;
+using backend1.Controllers;
 using backend1.Data.Entity;
 using backend1.Data.Repository;
 using backend1.Models;
@@ -15,35 +17,39 @@ namespace UnitTests.ControllersUT
 {
     public class ChildControllerUT
     {
-        //[Fact]
-       /* public async Task Index_ReturnsAViewResult_WithAListOfBrainstormSessions()
+        [Fact]
+        public async void GetChildren_TwoChildrenAdded_ReturnsListWith2Children()
         {
+            // ARRANGE
             var martina = new ChildModel()
             {
+                Id = 1,
                 ChildName = "Martina",
                 BirthDate = new DateTime(2007, 3, 5)
             };
-            martina.Id = 1;
-            var listChild = new List<ChildModel>() { martina };
-            var lChild2 = listChild as IEnumerable<ChildModel>;
-            var en = new Task<IEnumerable<childModel>>(l=>l.Id);
-            var enumerable = (Task<List<ChildModel>>)(lChild2);
+            var tatiana = new ChildModel()
+            {
+                Id = 2,
+                ChildName = "Tatiana",
+                BirthDate = new DateTime(2007, 3, 5)
+            };
+            var enumerable = new List<ChildModel>() { martina, tatiana } as IEnumerable<ChildModel>;
+ 
+            var serviceMock = new Mock<IChildService>();
+            serviceMock.Setup(r => r.GetChildrenAsync()).ReturnsAsync(enumerable);
+            var childContoller = new ChildrenController(serviceMock.Object);
 
-            // Arrange
-            var mockService = new Mock<IChildService>();
-            mockService.Setup(service => service.GetChildrenAsync()).Returns(enumerable);
-            var controller = new ChildrenController(mockService.Object);
+            // ACT 
+            var response = await childContoller.GetChildrenAsync();
+            var status = (OkObjectResult)response.Result;
+            var childrenList = status.Value as List<ChildModel>;
+            var countChildrenList = childrenList.Count();
 
-            // Act
-            var result = await controller.GetChildrenAsync();
-            //var childrenCount = await result;
+            // ASSERT
+            Assert.Equal(2, countChildrenList);
+            Assert.Equal(200, status.StatusCode);
+        }
 
-            // Assert
-            // var viewResult = Assert.IsType<ActionResult>(result);
-            // var model = Assert.IsAssignableFrom<IEnumerable<ChildModel>>(
-            //    viewResult.ViewData.Model);
-            //var a = result.Value;
-            Assert.Equal(3, result.Value.Count());
-        }*/
+        
     }
 }

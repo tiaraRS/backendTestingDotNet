@@ -14,14 +14,14 @@ namespace backend1.Services
             _childRepository = childRepository;
             _mapper = mapper;            
         }
-        public async Task<IEnumerable<ChildModel>> GetChildrenAsync()
+        public virtual async Task<IEnumerable<ChildModel>> GetChildrenAsync()
         {
             var childrenEntityList = await _childRepository.GetChildrenAsync();
             var children = _mapper.Map<IList<ChildModel>>(childrenEntityList);
             return children;
         }
      
-        public async Task<ChildModel> CreateChildAsync(ChildModel child)
+        public virtual async Task<ChildModel> CreateChildAsync(ChildModel child)
         {
             var childEntity = _mapper.Map<ChildEntity>(child);
             _childRepository.CreateChild(childEntity);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hqj1Z3GENCfViDPZuRgSc3YIc3lS4GpgTgw1+meRrEA=",
+  "Hash": "QF/Rp072bGKdRXLW/fHBqwjIrXYtDd4gAWij7tk0+UQ=",
   "Source": "backend1",
   "BasePath": "_content/backend1",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\TIARA\\UNIVERSIDAD\\SEMESTRE 8\\TALLER DE DESARROLLO DE SW\\TAREAS\\proyecto\\approach1-APRENDIENDO-FAMILIARIZANDO\\backend1\\backend1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\backend1.styles.css",
-      "SourceId": "backend1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\TIARA\\UNIVERSIDAD\\SEMESTRE 8\\TALLER DE DESARROLLO DE SW\\TAREAS\\proyecto\\approach1-APRENDIENDO-FAMILIARIZANDO\\backend1\\backend1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/backend1",
-      "RelativePath": "backend1.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\TIARA\\UNIVERSIDAD\\SEMESTRE 8\\TALLER DE DESARROLLO DE SW\\TAREAS\\proyecto\\approach1-APRENDIENDO-FAMILIARIZANDO\\backend1\\backend1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\backend1.styles.css"
-    },
-    {
-      "Identity": "C:\\TIARA\\UNIVERSIDAD\\SEMESTRE 8\\TALLER DE DESARROLLO DE SW\\TAREAS\\proyecto\\approach1-APRENDIENDO-FAMILIARIZANDO\\backend1\\backend1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\backend1.bundle.scp.css",
-      "SourceId": "backend1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\TIARA\\UNIVERSIDAD\\SEMESTRE 8\\TALLER DE DESARROLLO DE SW\\TAREAS\\proyecto\\approach1-APRENDIENDO-FAMILIARIZANDO\\backend1\\backend1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/backend1",
-      "RelativePath": "backend1.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\TIARA\\UNIVERSIDAD\\SEMESTRE 8\\TALLER DE DESARROLLO DE SW\\TAREAS\\proyecto\\approach1-APRENDIENDO-FAMILIARIZANDO\\backend1\\backend1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\backend1.bundle.scp.css"
-    },
     {
       "Identity": "C:\\TIARA\\UNIVERSIDAD\\SEMESTRE 8\\TALLER DE DESARROLLO DE SW\\TAREAS\\proyecto\\approach1-APRENDIENDO-FAMILIARIZANDO\\backend1\\backend1\\wwwroot\\css\\site.css",
       "SourceId": "backend1",
