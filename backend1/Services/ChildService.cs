@@ -16,9 +16,9 @@ namespace backend1.Services
         }
         public async Task<IEnumerable<ChildModel>> GetChildrenAsync()
         {
-            var disciplineEntityList = await _childRepository.GetChildrenAsync();
-            var disciplines = _mapper.Map<IList<ChildModel>>(disciplineEntityList);
-            return disciplines;
+            var childrenEntityList = await _childRepository.GetChildrenAsync();
+            var children = _mapper.Map<IList<ChildModel>>(childrenEntityList);
+            return children;
         }
      
         public async Task<ChildModel> CreateChildAsync(ChildModel child)

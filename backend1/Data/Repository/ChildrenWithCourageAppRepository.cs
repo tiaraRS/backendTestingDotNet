@@ -10,17 +10,17 @@ namespace backend1.Data.Repository
         {
             _dbContext = childrenDBContext;
         }
-        public void CreateChild(ChildEntity child)
+        public virtual void CreateChild(ChildEntity child)
         {
 
             _dbContext.Children.Add(child);
         }
-        public async Task<IEnumerable<ChildEntity>> GetChildrenAsync()
+        public virtual async Task<IEnumerable<ChildEntity>> GetChildrenAsync()
         {
             IQueryable<ChildEntity> query = _dbContext.Children;
             query = query.AsNoTracking();
             query = query.OrderBy(d => d.Id);
-            //query = query.Where()
+
             var result = await query.ToListAsync(); //aqui va recien a bd
 
             return result;
