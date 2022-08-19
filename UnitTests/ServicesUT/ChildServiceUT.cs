@@ -20,7 +20,7 @@ namespace UnitTests.ServicesUT
     {
 
          [Fact]
-         public async void GetChildren_TwoChildrenAdded_ReturnsListWith2Children_UNIT()
+         public async void GetChildren_TwoChildrenAdded_ReturnsListWith2Children()
          {
             // ARRANGE
              var martina = new ChildEntity()
@@ -44,83 +44,44 @@ namespace UnitTests.ServicesUT
 
              // ACT 
              var listChildren = await childService.GetChildrenAsync();
-
+            var lastChildId = listChildren.Last().Id;
 
              // ASSERT
-             Assert.Equal(2, listChildren.Last().Id);
+             Assert.Equal(2, lastChildId);
          }
+
         [Fact]
-        public async void GetChildren_TwoChildrenAdded_ReturnsListWithTwoChildren_INTEGRATION()
+        public async void CreateChild_ChildAdded_AddsChild()
         {
             // ARRANGE
-            var martinaModel = new ChildModel()
+            var tatianaEntity = new ChildEntity()
             {
-
-                ChildName = "Martina",
+                Id = 1,
+                ChildName = "Tatiana",
                 BirthDate = new DateTime(2007, 3, 5)
             };
-             var tatianaModel = new ChildModel()
-             {
-
-                 ChildName = "Tatiana",
-                 BirthDate = new DateTime(2007, 3, 5)
-             };
-
+            var tatianaModel = new ChildModel()
+            {                
+                ChildName = "Tatiana",
+                BirthDate = new DateTime(2007, 3, 5)
+            };
             var config = new MapperConfiguration(cfg => cfg.AddProfile<AutomapperProfile>());
-            var mapper = config.CreateMapper();                        
-            var repositoryMock = new ChildrenWithCourageAppRepository(ctx);
-            var childService = new ChildService(repositoryMock, mapper);
+            var mapper = config.CreateMapper();
+            var repositoryMock = new Mock<IChildrenWithCourageAppRepository>();
+            repositoryMock.Setup(r => r.CreateChild(tatianaEntity));
+            repositoryMock.Setup(r => r.SaveChangesAsync()).ReturnsAsync(true);
+            var childService = new ChildService(repositoryMock.Object, mapper);
 
-            // Act
-            var mart = await childService.CreateChildAsync(martinaModel);
-            await childService.CreateChildAsync(tatianaModel);
-            var listChildren =  await childService.GetChildrenAsync();
-
+            // ACT 
+            var childModelAdded = await childService.CreateChildAsync(tatianaModel);
+            var childId = childModelAdded.Id;
+            var childName = childModelAdded.ChildName;
+            var childBirthDate = childModelAdded.BirthDate;
 
             // ASSERT
-            Assert.Equal(2, listChildren.Count());
+            //Assert.Equal(1, childId);
+            Assert.Equal(new DateTime(2007, 3, 5), childBirthDate);
+            Assert.Equal("Tatiana", childModelAdded.ChildName);            
         }
-
-        /*[Fact]
-        public void GetChildren_ChildrenList_ReturnChildren()
-        {
-            var martina = new ChildEntity()
-            {
-                ChildName = "Martina",
-                BirthDate = new DateTime(2007, 3, 5)
-            };
-            //create In Memory Database
-            var options = new DbContextOptionsBuilder<ChildrenWithCourageDBContext>()
-            .UseInMemoryDatabase(databaseName: "ChildrenWithCourageDB")
-            .Options;
-            using (var context = new ChildrenWithCourageDBContext(options))
-            {
-                context.Children.Add(martina);
-
-                context.SaveChanges();
-            }
-            martina.Id = 1;
-            //
-            using (var context = new ChildrenWithCourageDBContext(options))
-            {
-                var config = new MapperConfiguration(cfg => cfg.AddProfile<AutomapperProfile>());
-                var mapper = config.CreateMapper();
-                Task<IEnumerable<ChildEntity>> enumerable = (Task<IEnumerable<ChildEntity>>)(new List<ChildEntity>() { martina } as IEnumerable<ChildEntity>);
-                // Arrange
-                var repositoryMock = new Mock<IChildrenWithCourageAppRepository>();
-                repositoryMock.Setup(r => r.GetChildrenAsync()).Returns(enumerable);
-
-                var childService = new ChildService(repositoryMock.Object, mapper);
-
-                // Act
-                var blog = childService.GetChildrenAsync();
-                repositoryMock.Verify(r => r.GetChildrenAsync());
-                // Assert
-                //repositoryMock.Verify(r => r.GetBlogByName("Blog2"));
-                //Assert.Equal(null,);
-
-            }
-        
-        }*/
     }
 }

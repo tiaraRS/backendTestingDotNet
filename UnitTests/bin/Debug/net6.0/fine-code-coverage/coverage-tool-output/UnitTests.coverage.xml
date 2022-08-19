@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7079000000000001" branch-rate="0.11109999999999999" version="1.9" timestamp="1660873672" lines-covered="206" lines-valid="291" branches-covered="4" branches-valid="36">
+<coverage line-rate="0.7592" branch-rate="0.11109999999999999" version="1.9" timestamp="1660877445" lines-covered="268" lines-valid="353" branches-covered="4" branches-valid="36">
   <sources>
     <source>C:\</source>
   </sources>
@@ -362,80 +362,80 @@
           <methods>
             <method name="MoveNext" signature="()" line-rate="0.8887999999999999" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="25" hits="2" branch="False" />
-                <line number="26" hits="2" branch="False" />
-                <line number="27" hits="2" branch="False" />
-                <line number="28" hits="2" branch="False" />
-                <line number="29" hits="2" branch="True" condition-coverage="50% (1/2)">
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="199" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="30" hits="2" branch="False" />
-                <line number="31" hits="2" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
                 <line number="33" hits="0" branch="False" />
-                <line number="34" hits="2" branch="False" />
+                <line number="34" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="25" hits="2" branch="False" />
-            <line number="26" hits="2" branch="False" />
-            <line number="27" hits="2" branch="False" />
-            <line number="28" hits="2" branch="False" />
-            <line number="29" hits="2" branch="True" condition-coverage="50% (1/2)">
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="199" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="30" hits="2" branch="False" />
-            <line number="31" hits="2" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
             <line number="33" hits="0" branch="False" />
-            <line number="34" hits="2" branch="False" />
+            <line number="34" hits="1" branch="False" />
           </lines>
         </class>
         <class name="backend1.Services.ChildService/&lt;GetChildrenAsync&gt;d__3" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Services\ChildService.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="2" branch="False" />
-                <line number="19" hits="2" branch="False" />
-                <line number="20" hits="2" branch="False" />
-                <line number="21" hits="2" branch="False" />
-                <line number="22" hits="2" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="18" hits="2" branch="False" />
-            <line number="19" hits="2" branch="False" />
-            <line number="20" hits="2" branch="False" />
-            <line number="21" hits="2" branch="False" />
-            <line number="22" hits="2" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
           </lines>
         </class>
         <class name="backend1.Models.ChildModel" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Models\ChildModel.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_ChildName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="17" branch="False" />
+                <line number="5" hits="14" branch="False" />
               </lines>
             </method>
             <method name="get_BirthDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="17" branch="False" />
+                <line number="6" hits="13" branch="False" />
               </lines>
             </method>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="16" branch="False" />
+                <line number="8" hits="13" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="17" branch="False" />
-            <line number="6" hits="17" branch="False" />
-            <line number="8" hits="16" branch="False" />
+            <line number="5" hits="14" branch="False" />
+            <line number="6" hits="13" branch="False" />
+            <line number="8" hits="13" branch="False" />
           </lines>
         </class>
         <class name="backend1.Data.ChildrenWithCourageDBContext" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Data\ChildrenWithCourageDBContext.cs" line-rate="1" branch-rate="1" complexity="4">
@@ -447,51 +447,51 @@
             </method>
             <method name="OnConfiguring" signature="(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="6" branch="False" />
-                <line number="16" hits="6" branch="False" />
-                <line number="17" hits="6" branch="False" />
-                <line number="18" hits="6" branch="False" />
-                <line number="19" hits="6" branch="False" />
-                <line number="21" hits="6" branch="False" />
-                <line number="22" hits="6" branch="False" />
-                <line number="23" hits="6" branch="False" />
+                <line number="15" hits="9" branch="False" />
+                <line number="16" hits="9" branch="False" />
+                <line number="17" hits="9" branch="False" />
+                <line number="18" hits="9" branch="False" />
+                <line number="19" hits="9" branch="False" />
+                <line number="21" hits="9" branch="False" />
+                <line number="22" hits="9" branch="False" />
+                <line number="23" hits="9" branch="False" />
               </lines>
             </method>
             <method name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="12" branch="False" />
-                <line number="26" hits="12" branch="False" />
-                <line number="30" hits="12" branch="False" />
-                <line number="32" hits="12" branch="False" />
-                <line number="39" hits="12" branch="False" />
+                <line number="25" hits="18" branch="False" />
+                <line number="26" hits="18" branch="False" />
+                <line number="30" hits="18" branch="False" />
+                <line number="32" hits="18" branch="False" />
+                <line number="39" hits="18" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;backend1.Data.ChildrenWithCourageDBContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="6" branch="False" />
-                <line number="11" hits="6" branch="False" />
-                <line number="13" hits="6" branch="False" />
+                <line number="10" hits="9" branch="False" />
+                <line number="11" hits="9" branch="False" />
+                <line number="13" hits="9" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="8" hits="6" branch="False" />
-            <line number="15" hits="6" branch="False" />
-            <line number="16" hits="6" branch="False" />
-            <line number="17" hits="6" branch="False" />
-            <line number="18" hits="6" branch="False" />
-            <line number="19" hits="6" branch="False" />
-            <line number="21" hits="6" branch="False" />
-            <line number="22" hits="6" branch="False" />
-            <line number="23" hits="6" branch="False" />
-            <line number="25" hits="12" branch="False" />
-            <line number="26" hits="12" branch="False" />
-            <line number="30" hits="12" branch="False" />
-            <line number="32" hits="12" branch="False" />
-            <line number="39" hits="12" branch="False" />
-            <line number="10" hits="6" branch="False" />
-            <line number="11" hits="6" branch="False" />
-            <line number="13" hits="6" branch="False" />
+            <line number="15" hits="9" branch="False" />
+            <line number="16" hits="9" branch="False" />
+            <line number="17" hits="9" branch="False" />
+            <line number="18" hits="9" branch="False" />
+            <line number="19" hits="9" branch="False" />
+            <line number="21" hits="9" branch="False" />
+            <line number="22" hits="9" branch="False" />
+            <line number="23" hits="9" branch="False" />
+            <line number="25" hits="18" branch="False" />
+            <line number="26" hits="18" branch="False" />
+            <line number="30" hits="18" branch="False" />
+            <line number="32" hits="18" branch="False" />
+            <line number="39" hits="18" branch="False" />
+            <line number="10" hits="9" branch="False" />
+            <line number="11" hits="9" branch="False" />
+            <line number="13" hits="9" branch="False" />
           </lines>
         </class>
         <class name="backend1.Data.Repository.ChildrenWithCourageAppRepository" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Data\Repository\ChildrenWithCourageAppRepository.cs" line-rate="1" branch-rate="1" complexity="2">
@@ -505,10 +505,10 @@
             </method>
             <method name=".ctor" signature="(backend1.Data.ChildrenWithCourageDBContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="1" branch="False" />
-                <line number="10" hits="1" branch="False" />
-                <line number="11" hits="1" branch="False" />
-                <line number="12" hits="1" branch="False" />
+                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="3" branch="False" />
+                <line number="11" hits="3" branch="False" />
+                <line number="12" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
@@ -516,10 +516,10 @@
             <line number="14" hits="2" branch="False" />
             <line number="16" hits="2" branch="False" />
             <line number="17" hits="2" branch="False" />
-            <line number="9" hits="1" branch="False" />
-            <line number="10" hits="1" branch="False" />
-            <line number="11" hits="1" branch="False" />
-            <line number="12" hits="1" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+            <line number="12" hits="3" branch="False" />
           </lines>
         </class>
         <class name="backend1.Data.Repository.ChildrenWithCourageAppRepository/&lt;GetChildrenAsync&gt;d__3" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Data\Repository\ChildrenWithCourageAppRepository.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -584,24 +584,24 @@
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="20" branch="False" />
+                <line number="9" hits="21" branch="False" />
               </lines>
             </method>
             <method name="get_ChildName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="26" branch="False" />
+                <line number="10" hits="29" branch="False" />
               </lines>
             </method>
             <method name="get_BirthDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="25" branch="False" />
+                <line number="11" hits="28" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="20" branch="False" />
-            <line number="10" hits="26" branch="False" />
-            <line number="11" hits="25" branch="False" />
+            <line number="9" hits="21" branch="False" />
+            <line number="10" hits="29" branch="False" />
+            <line number="11" hits="28" branch="False" />
           </lines>
         </class>
         <class name="backend1.Controllers.ChildrenController" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\backend1\Controllers\ChildrenController.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -688,7 +688,7 @@
         </class>
       </classes>
     </package>
-    <package name="UnitTests" line-rate="0.9929000000000001" branch-rate="1" complexity="20">
+    <package name="UnitTests" line-rate="0.995" branch-rate="1" complexity="23">
       <classes>
         <class name="AutoGeneratedProgram" filename="Users\inav2\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -706,73 +706,131 @@
           <methods>
             <method name="GetInMemoryDBContext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="6" branch="False" />
-                <line number="21" hits="6" branch="False" />
-                <line number="22" hits="6" branch="False" />
-                <line number="23" hits="6" branch="False" />
-                <line number="25" hits="6" branch="False" />
-                <line number="26" hits="6" branch="False" />
-                <line number="28" hits="6" branch="False" />
-                <line number="29" hits="6" branch="False" />
-                <line number="30" hits="6" branch="False" />
-                <line number="31" hits="6" branch="False" />
-                <line number="32" hits="6" branch="False" />
+                <line number="20" hits="9" branch="False" />
+                <line number="21" hits="9" branch="False" />
+                <line number="22" hits="9" branch="False" />
+                <line number="23" hits="9" branch="False" />
+                <line number="25" hits="9" branch="False" />
+                <line number="26" hits="9" branch="False" />
+                <line number="28" hits="9" branch="False" />
+                <line number="29" hits="9" branch="False" />
+                <line number="30" hits="9" branch="False" />
+                <line number="31" hits="9" branch="False" />
+                <line number="32" hits="9" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(backend1.Data.ChildrenWithCourageDBContext)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="15" hits="6" branch="False" />
-                <line number="16" hits="6" branch="False" />
-                <line number="17" hits="6" branch="True" condition-coverage="100% (2/2)">
+                <line number="15" hits="9" branch="False" />
+                <line number="16" hits="9" branch="False" />
+                <line number="17" hits="9" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="11" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="18" hits="6" branch="False" />
+                <line number="18" hits="9" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="20" hits="6" branch="False" />
-            <line number="21" hits="6" branch="False" />
-            <line number="22" hits="6" branch="False" />
-            <line number="23" hits="6" branch="False" />
-            <line number="25" hits="6" branch="False" />
-            <line number="26" hits="6" branch="False" />
-            <line number="28" hits="6" branch="False" />
-            <line number="29" hits="6" branch="False" />
-            <line number="30" hits="6" branch="False" />
-            <line number="31" hits="6" branch="False" />
-            <line number="32" hits="6" branch="False" />
-            <line number="15" hits="6" branch="False" />
-            <line number="16" hits="6" branch="False" />
-            <line number="17" hits="6" branch="True" condition-coverage="100% (2/2)">
+            <line number="20" hits="9" branch="False" />
+            <line number="21" hits="9" branch="False" />
+            <line number="22" hits="9" branch="False" />
+            <line number="23" hits="9" branch="False" />
+            <line number="25" hits="9" branch="False" />
+            <line number="26" hits="9" branch="False" />
+            <line number="28" hits="9" branch="False" />
+            <line number="29" hits="9" branch="False" />
+            <line number="30" hits="9" branch="False" />
+            <line number="31" hits="9" branch="False" />
+            <line number="32" hits="9" branch="False" />
+            <line number="15" hits="9" branch="False" />
+            <line number="16" hits="9" branch="False" />
+            <line number="17" hits="9" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="11" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="18" hits="6" branch="False" />
+            <line number="18" hits="9" branch="False" />
           </lines>
         </class>
         <class name="UnitTests.ServicesUT.ChildServiceUT/&lt;&gt;c" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\ServicesUT\ChildServiceUT.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name="&lt;GetChildren_TwoChildrenAdded_ReturnsListWith2Children_UNIT&gt;b__0_0" signature="(AutoMapper.IMapperConfigurationExpression)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="&lt;GetChildren_TwoChildrenAdded_ReturnsListWith2Children&gt;b__0_0" signature="(AutoMapper.IMapperConfigurationExpression)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="38" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="&lt;GetChildren_TwoChildrenAdded_ReturnsListWithTwoChildren_INTEGRATION&gt;b__1_0" signature="(AutoMapper.IMapperConfigurationExpression)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="&lt;CreateChild_ChildAdded_AddsChild&gt;b__1_0" signature="(AutoMapper.IMapperConfigurationExpression)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="69" hits="2" branch="False" />
+                <line number="68" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="38" hits="2" branch="False" />
-            <line number="69" hits="2" branch="False" />
+            <line number="68" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="UnitTests.ServicesUT.ChildServiceUT/&lt;GetChildren_TwoChildrenAdded_ReturnsListWith2Children_UNIT&gt;d__0" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\ServicesUT\ChildServiceUT.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="UnitTests.ServicesUT.ChildServiceUT/&lt;CreateChild_ChildAdded_AddsChild&gt;d__1" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\ServicesUT\ChildServiceUT.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="55" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.ServicesUT.ChildServiceUT/&lt;GetChildren_TwoChildrenAdded_ReturnsListWith2Children&gt;d__0" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\ServicesUT\ChildServiceUT.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -795,6 +853,7 @@
                 <line number="42" hits="1" branch="False" />
                 <line number="43" hits="1" branch="False" />
                 <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
                 <line number="50" hits="1" branch="False" />
                 <line number="51" hits="1" branch="False" />
               </lines>
@@ -820,15 +879,26 @@
             <line number="42" hits="1" branch="False" />
             <line number="43" hits="1" branch="False" />
             <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
             <line number="50" hits="1" branch="False" />
             <line number="51" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="UnitTests.ServicesUT.ChildServiceUT/&lt;GetChildren_TwoChildrenAdded_ReturnsListWithTwoChildren_INTEGRATION&gt;d__1" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\ServicesUT\ChildServiceUT.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="UnitTests.RepositoryUT.RepositoryUT/&lt;CreateChild_AddChildToDB_ReturnsTrueSavedCorrectly&gt;d__1" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\RepositoryUT\RepositoryUT.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="44" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
                 <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
                 <line number="56" hits="1" branch="False" />
                 <line number="57" hits="1" branch="False" />
                 <line number="58" hits="1" branch="False" />
@@ -840,20 +910,25 @@
                 <line number="64" hits="1" branch="False" />
                 <line number="65" hits="1" branch="False" />
                 <line number="66" hits="1" branch="False" />
-                <line number="67" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
                 <line number="70" hits="1" branch="False" />
-                <line number="71" hits="1" branch="False" />
-                <line number="72" hits="1" branch="False" />
-                <line number="75" hits="1" branch="False" />
-                <line number="76" hits="1" branch="False" />
-                <line number="77" hits="1" branch="False" />
-                <line number="81" hits="1" branch="False" />
-                <line number="82" hits="1" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
+            <line number="44" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
             <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
             <line number="56" hits="1" branch="False" />
             <line number="57" hits="1" branch="False" />
             <line number="58" hits="1" branch="False" />
@@ -865,15 +940,94 @@
             <line number="64" hits="1" branch="False" />
             <line number="65" hits="1" branch="False" />
             <line number="66" hits="1" branch="False" />
-            <line number="67" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
             <line number="70" hits="1" branch="False" />
-            <line number="71" hits="1" branch="False" />
-            <line number="72" hits="1" branch="False" />
-            <line number="75" hits="1" branch="False" />
-            <line number="76" hits="1" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.RepositoryUT.RepositoryUT/&lt;CreateChild_AddChildToEmptyDB_ReturnsTrueSavedCorrectly&gt;d__2" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\RepositoryUT\RepositoryUT.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="77" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
             <line number="77" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
             <line number="81" hits="1" branch="False" />
             <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.RepositoryUT.RepositoryUT/&lt;GetChildren_TwoChildrenInDB_ReturnsListWith2Children_UNIT&gt;d__0" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\RepositoryUT\RepositoryUT.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="32" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="32" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
           </lines>
         </class>
         <class name="UnitTests.Config.AutomapperUT" filename="TIARA\UNIVERSIDAD\SEMESTRE 8\TALLER DE DESARROLLO DE SW\TAREAS\proyecto\approach1-APRENDIENDO-FAMILIARIZANDO\backend1\UnitTests\Config\AutomapperUT.cs" line-rate="1" branch-rate="1" complexity="8">

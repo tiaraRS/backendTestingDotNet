@@ -31,13 +31,13 @@ namespace backend1.Controllers
         }
         
         [HttpPost]
-        public async Task<ActionResult<ChildModel>> CreateChildAsync([FromBody] ChildModel Child)
+        public async Task<ActionResult<ChildModel>> CreateChildAsync([FromBody] ChildModel child)
         {
             try
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
-                var newChild = await _childService.CreateChildAsync(Child);
+                var newChild = await _childService.CreateChildAsync(child);
                 return Created($"/api/children/{newChild.Id}", newChild);
             }
             catch (Exception)
